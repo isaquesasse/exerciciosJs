@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio digital</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <style>
+        div#clock {
+            font-family: "Orbitron", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 100pt;
+            color: green;
+            margin: auto;
+        }
+
+        .clockStyle {
+            display: flex;
+            align-content: center;
+            margin: auto;
+            background: black;
+            border: 5px solid;
+            border-radius: 10px;
+            width: 42em;
+        }
+
+        .title {
+            font-weight: 900;
+            font-size: 50pt;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">Horário de Brasilia:</h1>
+    <div class="clockStyle">   
+        <div id="clock"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
